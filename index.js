@@ -20,7 +20,7 @@ function calculate(){
    }
 
     if(buttonDisplay==="DEL"){
-      firstDisplay.textContent=firstDisplay.textContent.slice(0,-1)
+//       firstDisplay.textContent=firstDisplay.textContent.slice(0,-1)
     firstDisplay.textContent= firstDisplay.textContent.substr(0, firstDisplay.textContent.length-1);
     return
    }
